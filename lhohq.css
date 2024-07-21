@@ -1,0 +1,58 @@
+BODY
+	{
+	background-image: url(graphics/bg2.gif);
+	}
+	
+div.main
+	{
+	/* background-color:#none; */
+	border-color:66FF00;
+	border-width:2px;
+	border-style:dashed;
+	color:#ffffff;
+	padding:16px;
+	font-size:18pt;
+	width:320pt;
+	text-align:left;
+	float:left;
+	}
+
+a:link
+	{
+	color:#99FFFF;
+	padding:0pt 6pt 0pt 6pt;
+	background-image: url(graphics/hovermotionbg2.gif);
+	font-weight:bold;
+	}
+	
+	
+a:visited
+	{
+	color:#ff0040;
+	padding:0pt 6pt 0pt 6pt;
+	background-position: center;
+	background-size: contain;
+	}
+	
+a:hover
+	{
+	color:#003300;
+	background-color:#FF0000;
+	background-image:none;
+	text-decoration:none;
+	}
+	
+#blink01
+	{background-image: url(graphics/blink01.gif);}
+
+#blink02
+	{background-image: url(graphics/blink02.gif);}
+
+#blink03
+	{background-image: url(graphics/blink03.gif);}
+
+#blink04
+	{background-image: url(graphics/blink04.gif);}
+
+#blink05
+	{background-image: url(graphics/blink05.gif);}

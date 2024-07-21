@@ -1,0 +1,31 @@
+/* Basic Styling */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font: normal bold 6.5rem / 1.2
+    'Poppins', 'Helevetica', sans-serif;
+    text-align: center;
+}
+.text{
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, red, orange, yellow, lime, green, blue, indigo, purple);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+    background-size: 300%;
+    background-position: -100%;
+
+    animation: animatedText 5s infinite alternate-reverse;
+}
+
+@keyframes animatedText{
+    from{
+        background-position: 0%;
+    }
+        to{
+            background-position: 100%;
+        }
+}
